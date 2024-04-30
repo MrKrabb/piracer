@@ -8,3 +8,7 @@ sudo apt-get install -y libilmbase-dev libopenexr-dev libgstreamer1.0-dev libjas
 sudo apt-get install -y libatlas-base-dev libavcodec-dev libavformat-dev libswscale-dev libqtgui4 
 sudo apt-get install python3-virtualenv
 sudo apt-get install python3-pip
+
+
+pip3 install flask
+python3 -m pidisplay.display_server
